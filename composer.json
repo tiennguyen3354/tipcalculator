@@ -1,0 +1,14 @@
+{
+  "name": "tiennguy/328/tipcalculator" ,
+  "description": "My Tip calculation application",
+  "authors": [
+    {
+      "name": "Tien Nguyen",
+      "email": "tiennguyen3354@gmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+
+}
