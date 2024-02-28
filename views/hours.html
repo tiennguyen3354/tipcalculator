@@ -6,16 +6,18 @@
 
 <!--            in time -->
             <h1> Select in time </h1>
-            <input list="inTimes" id="inTime" name="inTimes" />
+            <input list="inTimes" id="inTime" name="startTime" />
             <datalist id="inTimes">
                 <repeat group="{{ @inTimes }}" value="{{ @inTime }}">
-
                     <option value="{{@inTime}}"></option>
-
                 </repeat>
             </datalist>
+<!--            out time -->
+            <h1>Select out time </h1>
+            <input type="time" name="outTime">
 
-                <button type="submit"> Submit </button>
+
+            <button type="submit"> Submit </button>
         </form>
 
     </body>
