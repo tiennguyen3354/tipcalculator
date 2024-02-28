@@ -1,0 +1,22 @@
+
+<!--This will connect to the header page. -->
+<include href="views/header.html" />
+    <body>
+        <form action="#" method="post">
+
+<!--            in time -->
+            <h1> Select in time </h1>
+            <input list="inTimes" id="inTime" name="inTimes" />
+            <datalist id="inTimes">
+                <repeat group="{{ @inTimes }}" value="{{ @inTime }}">
+
+                    <option value="{{@inTime}}"></option>
+
+                </repeat>
+            </datalist>
+
+                <button type="submit"> Submit </button>
+        </form>
+
+    </body>
+</html>
